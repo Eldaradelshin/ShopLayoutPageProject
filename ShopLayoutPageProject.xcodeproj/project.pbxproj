@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		408F229C220C73B000FF163C /* ScrollableMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F229B220C73B000FF163C /* ScrollableMainVC.swift */; };
+		408F229E220C7DD500FF163C /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F229D220C7DD500FF163C /* PhotoViewCell.swift */; };
 		40FFF8F5220C40C900AAE29C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFF8F4220C40C900AAE29C /* AppDelegate.swift */; };
-		40FFF8F7220C40C900AAE29C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFF8F6220C40C900AAE29C /* ViewController.swift */; };
 		40FFF8FA220C40C900AAE29C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FFF8F8220C40C900AAE29C /* Main.storyboard */; };
 		40FFF8FC220C40CA00AAE29C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FFF8FB220C40CA00AAE29C /* Assets.xcassets */; };
 		40FFF8FF220C40CA00AAE29C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FFF8FD220C40CA00AAE29C /* LaunchScreen.storyboard */; };
+		40FFF909220C58E900AAE29C /* MobilePhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFF908220C58E900AAE29C /* MobilePhone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		408F229B220C73B000FF163C /* ScrollableMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableMainVC.swift; sourceTree = "<group>"; };
+		408F229D220C7DD500FF163C /* PhotoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
 		40FFF8F1220C40C900AAE29C /* ShopLayoutPageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopLayoutPageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FFF8F4220C40C900AAE29C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40FFF8F6220C40C900AAE29C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40FFF8F9220C40C900AAE29C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40FFF8FB220C40CA00AAE29C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40FFF8FE220C40CA00AAE29C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40FFF900220C40CA00AAE29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FFF908220C58E900AAE29C /* MobilePhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePhone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				40FFF8F4220C40C900AAE29C /* AppDelegate.swift */,
-				40FFF8F6220C40C900AAE29C /* ViewController.swift */,
 				40FFF8F8220C40C900AAE29C /* Main.storyboard */,
 				40FFF8FB220C40CA00AAE29C /* Assets.xcassets */,
 				40FFF8FD220C40CA00AAE29C /* LaunchScreen.storyboard */,
 				40FFF900220C40CA00AAE29C /* Info.plist */,
+				40FFF908220C58E900AAE29C /* MobilePhone.swift */,
+				408F229B220C73B000FF163C /* ScrollableMainVC.swift */,
+				408F229D220C7DD500FF163C /* PhotoViewCell.swift */,
 			);
 			path = ShopLayoutPageProject;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40FFF8F7220C40C900AAE29C /* ViewController.swift in Sources */,
+				40FFF909220C58E900AAE29C /* MobilePhone.swift in Sources */,
 				40FFF8F5220C40C900AAE29C /* AppDelegate.swift in Sources */,
+				408F229C220C73B000FF163C /* ScrollableMainVC.swift in Sources */,
+				408F229E220C7DD500FF163C /* PhotoViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
